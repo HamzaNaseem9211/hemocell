@@ -16,22 +16,22 @@ const FooterComponent = () => {
 			title: "Request Blood",
 			link: "/need-blood",
 		},
-		{
-			title: "Donate Money",
-			link: "https://donorbox.org/donate-money-11",
-		},
-		{
-			title: "Host Blood Drive",
-			link: "/host-blood-drive",
-		},
-		{
-			title: "Contact",
-			link: "/contact",
-		},
-		{
-			title: "Admin Dashboard",
-			link: "/admin",
-		},
+		// {
+		// 	title: "Donate Money",
+		// 	link: "https://donorbox.org/donate-money-11",
+		// },
+		// {
+		// 	title: "Host Blood Drive",
+		// 	link: "/host-blood-drive",
+		// },
+		// {
+		// 	title: "Contact",
+		// 	link: "/contact",
+		// },
+		// {
+		// 	title: "Admin Dashboard",
+		// 	link: "/admin",
+		// },
 	];
 
 	const contactLinks = [

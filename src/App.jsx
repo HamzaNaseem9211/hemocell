@@ -19,13 +19,13 @@ export default function App() {
 			{/* <BrowserRouter> */}
 			<Routes>
 				<Route exact path="/" element={<HomePage />} />
-				<Route
+				{/* <Route
 					path="/host-blood-drive"
 					element={<HostBloodDrivePage />}
-				/>
+				/> */}
 				<Route path="/donate-blood" element={<DonateBloodPage />} />
 				<Route path="/need-blood" element={<NeedBloodPage />} />
-				<Route path="/contact" element={<ContactPage />} />
+				{/* <Route path="/contact" element={<ContactPage />} /> */}
 				<Route path="/admin" element={<Admin />}>
 					<Route index element={<Dashboard />} />
 					<Route path="donate-blood" element={<AdminDonateBlood />} />
